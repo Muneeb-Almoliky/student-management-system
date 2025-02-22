@@ -92,7 +92,7 @@ public class StudentView extends JFrame {
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
 
-        ImageIcon plusIcon = new ImageIcon("/resources/images/addicon.jpg");
+        ImageIcon plusIcon = new ImageIcon(getClass().getClassLoader().getResource("resources/images/addicon.jpg"));
         Image scaledImage = plusIcon.getImage().getScaledInstance(25, 25, Image.SCALE_SMOOTH);
 
         showAddDialogBtn = new JButton("Add A Student", new ImageIcon(scaledImage));
