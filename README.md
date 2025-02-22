@@ -1,7 +1,7 @@
 #  Student Management System
 
 ##  About
-This is a **Student Management System** built using **Java** with **Swing** for the user interface and **MySQL** as the database. The application allows administrators to manage student data, including adding, updating, and deleting student records. The system also features student enrollment, course assignments, teacher management, and various filtering options.
+This is a **Student Management System** built using **Java** with **Swing** for the user interface and **MySQL** as the database. The application follows the **Model-View-Controller (MVC) pattern**, ensuring a clean separation of concerns between data handling, user interface, and business logic.
 
 ##  Features
 -  **Student Management**: Add, update, and delete student records.
